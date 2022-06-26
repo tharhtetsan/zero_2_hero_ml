@@ -1,0 +1,6 @@
+0001	Crown
+0003	LightTruck
+0002	Crown
+0005	LightTruck
+0004	LightTruck
+0006	LightTruck
