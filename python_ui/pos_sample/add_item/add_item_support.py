@@ -7,6 +7,8 @@
 
 import sys
 
+from util import util
+
 try:
     import Tkinter as tk
 except ImportError:
@@ -21,10 +23,11 @@ except ImportError:
 
 def btn_add_item_action():
     print('add_item_support.btn_add_item_action')
-    itemID = w.txt_item_id.get()
-    itemName = w.txt_item_name.get()
-    retail_price = int(w.txt_ratail_price.get())
-    sale_price =  int(w.txt_sale_price.get())
+    itemID = w.txt_item_id.get().strip()
+    itemName = w.txt_item_name.get().strip()
+    retail_price = int(w.txt_ratail_price.get().strip())
+    sale_price =  int(w.txt_sale_price.get().strip())
+    category = str(w.txt_category_name.get().strip())
     
     str_write = itemID+","+itemName+","+str(retail_price)+","+str(sale_price)+"\n"
 
@@ -40,6 +43,16 @@ def init(top, gui, *args, **kwargs):
     w = gui
     top_level = top
     root = top
+    init_work()
+
+
+
+def init_work():
+    test_util =  util()
+    test_util.readExcelFile("item.xlsx")
+    item_id = test_util.get_latestID()
+    w.txt_item_id.insert(tk.INSERT,item_id)
+
 
 def destroy_window():
     # Function which closes the window.
