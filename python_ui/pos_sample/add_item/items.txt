@@ -1,2 +1,10 @@
 001,Biear,300,400
 002,Tiger,500,600
+ITM_6,tiger,1500,1700
+ITM_6,tiger,1500,1700
+ITM_6,Tiger,100,50
+ITM_6,test,250,400
+ITM_6,test,250,400
+ITM_6,test,250,400
+ITM_6,test,300,400
+ITM_6,test,300,400

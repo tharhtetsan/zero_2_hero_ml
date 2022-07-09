@@ -90,6 +90,23 @@ class Toplevel1:
         self.btn_add_item.configure(pady="0")
         self.btn_add_item.configure(text='''Save to File''')
 
+
+        self.cal_profic = tk.Button(top)
+        self.cal_profic.place(relx=0.302, rely=0.8, height=44, width=347)
+        self.cal_profic.configure(activebackground="#ececec")
+        self.cal_profic.configure(activeforeground="#000000")
+        self.cal_profic.configure(background="#d9d9d9")
+        self.cal_profic.configure(command=add_item_support.cal_profic)
+        self.cal_profic.configure(disabledforeground="#a3a3a3")
+        self.cal_profic.configure(foreground="#000000")
+        self.cal_profic.configure(highlightbackground="#d9d9d9")
+        self.cal_profic.configure(highlightcolor="black")
+        self.cal_profic.configure(pady="0")
+        self.cal_profic.configure(text='''Calculate Profic''')
+
+
+
+
         self.txt_ratail_price = tk.Entry(top)
         self.txt_ratail_price.place(relx=0.302, rely=0.319, height=30
                 , relwidth=0.593)

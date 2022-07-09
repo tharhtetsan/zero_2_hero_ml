@@ -6,6 +6,7 @@
 #    Jul 03, 2022 09:34:09 AM +0630  platform: Windows NT
 
 import sys
+from item import item
 
 from util import util
 
@@ -21,6 +22,9 @@ except ImportError:
     import tkinter.ttk as ttk
     py3 = True
 
+
+test_util =  util()
+
 def btn_add_item_action():
     print('add_item_support.btn_add_item_action')
     itemID = w.txt_item_id.get().strip()
@@ -31,10 +35,19 @@ def btn_add_item_action():
     
     str_write = itemID+","+itemName+","+str(retail_price)+","+str(sale_price)+"\n"
 
+    cur_item = item(item_id=itemID,
+    name=itemName,
+    qr_code=itemID,
+    price=sale_price,
+    buying_price=retail_price,
+    categories_id=category)
 
-    fielname = "items.txt"
-    with open(fielname,"a") as fileWrite:
-        fileWrite.writelines(str_write)
+#    print(str_write)
+#    print(cur_itme.getProfic())
+
+    
+    test_util.update_df(cur_item=cur_item)
+    clean_data()
 
     sys.stdout.flush()
 
@@ -47,11 +60,31 @@ def init(top, gui, *args, **kwargs):
 
 
 
-def init_work():
-    test_util =  util()
-    test_util.readExcelFile("item.xlsx")
+def init_work(): 
+    test_util.readExcelFile()
     item_id = test_util.get_latestID()
+   
     w.txt_item_id.insert(tk.INSERT,item_id)
+
+def clean_data():
+    
+    w.txt_item_id.delete(0, tk.END)
+    w.txt_item_name.delete(0, tk.END)
+    w.txt_ratail_price.delete(0, tk.END)
+    w.txt_sale_price.delete(0, tk.END)
+    w.txt_category_name.delete(0, tk.END)
+    init_work()
+
+
+
+
+def cal_profic():
+    test_util.generate_proficCat_fig()
+
+
+
+
+
 
 
 def destroy_window():

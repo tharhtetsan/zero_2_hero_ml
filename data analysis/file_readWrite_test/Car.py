@@ -22,7 +22,4 @@ class Car:
             fileWrite.writelines(write_str)
 
 
-    def checkNoCars(self):
-        with open(self.fileName, "r") as file:
-            rows = file.readlines()
-        return len(rows)
+   
