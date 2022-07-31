@@ -33,9 +33,9 @@ This reposity contain all about theory and code for **Python beginner through to
 
 Clone or download reposisty 
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-jupyter notebook
+`jupyter notebook`
 
 
 Thank to my friend [Sai Han Lin Aung](https://github.com/hanlinag) for helping in [AI-Nation](https://www.facebook.com/ainationmm).
