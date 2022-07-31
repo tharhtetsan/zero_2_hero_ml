@@ -1,0 +1,8 @@
+numpy
+pandas
+opencv-python
+matplotlib
+sklearn
+seaborn
+tkinter
+jupyter-notebook
