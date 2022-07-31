@@ -1,8 +1,9 @@
-# Zero_2_Hero_Python
+# Zero to Hero Python
+This reposity contain all about theory and code for python beginner through to Junior Machine Learning Engineer.
+
 
 ##### Basic python syndax (
 
-[notebook]: https://github.com/tharhtetsan/zero_2_hero_python/blob/main/python_basic/DataType_Ifelse_And_Looping.ipynb	""notebook")"
 
 - data type
 
