@@ -1,13 +1,47 @@
-# Zero_2_Hero_Python
+# Decision Tree Algorithm
 
-##### Basic python syndax (
+*This Presentation is all about my opinion and how I understand the way.*
+*So any mistake, be patient me.*
+*Ref : HSA University* 
 
-[notebook]: https://github.com/tharhtetsan/zero_2_hero_python/blob/main/python_basic/DataType_Ifelse_And_Looping.ipynb	""notebook")"
 
-- data type
 
-- operator
+![](images\ds-1.PNG)
 
-- List, set, dict
+![](images/ds-2.PNG)
 
-- Looping (while, for, for ecach)
+![](images/ds-3.PNG)
+
+![](images/ds-4.PNG)
+
+![](images/ds-5.PNG)
+
+![](images/ds-6.PNG)
+
+![](images/ds-7.PNG)
+
+![](images/ds-8.png)
+
+![](images/ds-9.PNG)
+
+![](images/ds-10.PNG)
+
+![](images/ds-11.PNG)
+
+![](images/ds-12.png)
+
+![](images/ds-13.PNG)
+
+![](images/ds-14.png)
+
+![](images/ds-15.PNG)
+
+
+
+**If there Any questions?**
+
+You can find me at:
+
+- tharhtet1234@gmail.com
+- https://www.facebook.com/tharhtet.san.902
+- https://github.com/tharhtetsan
