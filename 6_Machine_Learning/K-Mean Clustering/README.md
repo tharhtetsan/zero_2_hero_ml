@@ -34,9 +34,12 @@
 
 ![](images/ds-14.png)
 
-![](images/ds-15.PNG)
 
 
+**Source Code**
+
+- [native algorithm source code](https://github.com/tharhtetsan/zero_2_hero_python/blob/3db5bc57bfd395c747e87848258dd919eae0e60c/6_Machine_Learning/K-Mean%20Clustering/k_means_native/K-mean_Clustering_native.ipynb)
+- [framework usage source code](https://github.com/tharhtetsan/zero_2_hero_python/blob/3db5bc57bfd395c747e87848258dd919eae0e60c/6_Machine_Learning/K-Mean%20Clustering/k_means_clustering_proj/k_means_Image_Clustering.ipynb)
 
 **If there Any questions?**
 
