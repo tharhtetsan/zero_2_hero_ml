@@ -43,8 +43,8 @@
 
 **Source Code**
 
-- [native algorithm source code]()
-- [framework usage source code]()
+- [native algorithm source code](https://github.com/tharhtetsan/zero_2_hero_python/blob/df95327f6f19d270ec97d8ed704843b78f495214/7_Deep_Learning/ANN/Native%20Simple%20Logistic%20Regression.ipynb)
+- [framework usage source code](https://github.com/tharhtetsan/zero_2_hero_python/blob/df95327f6f19d270ec97d8ed704843b78f495214/7_Deep_Learning/ANN/tensorflow%20Simple%20Logistic%20Regression.ipynb)
 
 
 
