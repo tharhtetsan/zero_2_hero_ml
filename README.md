@@ -5,31 +5,48 @@ This reposity contain all about theory and code for **Python beginner through to
 
 ### Course outline
 
-1. ##### Python Basic
+##### Python Basic
 
-   1. Data types and Operators
-   2. If else and Looping
-   3. Functions
-   4. Object and Class
-   5. Object Oriented Programming (OOP)
-2. ##### OOP test project.
-3. ##### Data Analysis with python
+- Data types and Operators
+- If else and Looping
+- Functions
+- Object and Class
+- Object Oriented Programming (OOP)
 
-   1. File Read / Write
-   2. Graph and charts
-   3. Excel file handling and plotting
-   4. Excel read / write and plotting
-4. ##### Python UI
-5. ##### Image Processing
+##### OOP test project.
 
-   1. Image processing basic functions
-   2. Camera and video handling
-   3. Understanding RGB and BGR
-   4. Filters in image processing
-   5. Face detection.
-6. ##### Machine Learning
+##### Data Analysis with python
 
-   1. Decision Tree
+- File Read / Write
+- Graph and charts
+- Excel file handling and plotting
+- Excel read / write and plotting
+
+##### Python UI
+
+##### Image Processing
+
+- Image processing basic functions
+- Camera and video handling
+- Understanding RGB and BGR
+- Filters in image processing
+- Face detection.
+
+##### Machine Learning
+
+- Decision Tree
+- Navie Bayes
+- K-Mean Clustering
+- Linear Regression
+
+##### Deep Learning
+
+- Artificial Neural Network
+- Convolutional Neural Network
+
+
+
+
 
 
 ### How to Run
