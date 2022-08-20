@@ -7,8 +7,6 @@ This reposity contain all about theory and code for **Python beginner through to
 
 ##### Python Basic
 
-data
-
 - [Data types and Operators](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/1_DataType_Ifelse_And_Looping.ipynb)
 - [If else and Looping](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/1_DataType_Ifelse_And_Looping.ipynb)
 - [Functions](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/2_FunctionAndClasss.ipynb)
