@@ -7,7 +7,7 @@ Ref : lazyprogrammer, Alexander Amini, deeplizard
 
 
 
-![](images\ds-1.PNG)
+![](images/ds-1.PNG)
 
 ![](images/ds-2.PNG)
 
