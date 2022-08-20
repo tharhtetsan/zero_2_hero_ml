@@ -7,26 +7,28 @@ This reposity contain all about theory and code for **Python beginner through to
 
 ##### Python Basic
 
-- Data types and Operators
-- If else and Looping
-- Functions
-- Object and Class
-- Object Oriented Programming (OOP)
+data
 
-##### OOP test project.
+- [Data types and Operators](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/1_DataType_Ifelse_And_Looping.ipynb)
+- [If else and Looping](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/1_DataType_Ifelse_And_Looping.ipynb)
+- [Functions](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/2_FunctionAndClasss.ipynb)
+- [Object and Class](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/4_OOP.ipynb)
+- [Object Oriented Programming (OOP)](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/1_Python_Basic/3_ObjectAndClass_with_OOP.ipynb)
+
+##### [OOP test project.](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/2_Python_OOP/oop_py)
 
 ##### Data Analysis with python
 
-- File Read / Write
-- Graph and charts
-- Excel file handling and plotting
-- Excel read / write and plotting
+- [File Read / Write](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/3_Data_Analysis_with_Python/1_file_read_write.ipynb)
+- [Graph and charts](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/3_Data_Analysis_with_Python/2_graph%20and%20charts.ipynb)
+- [Excel file handling and plotting](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/3_Data_Analysis_with_Python/3_excel_and_plotting.ipynb)
+- [Excel read / write and plotting](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/3_Data_Analysis_with_Python/4_excel_csv_readWrite_and_plotting.ipynb)
 
-##### Python UI
+##### [Python UI](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/4_Python%20UI/pos_sample/add_item)
 
 ##### Image Processing
 
-- Image processing basic functions
+- [Image processing basic functions](https://github.com/tharhtetsan/zero_2_hero_python/blob/7a6f6ae7e337cf5df786ff90e7c796cc3cbcb34a/5_Image%20Processing/Image%20processing%20%20basic%20functions.ipynb)
 - Camera and video handling
 - Understanding RGB and BGR
 - Filters in image processing
@@ -34,15 +36,15 @@ This reposity contain all about theory and code for **Python beginner through to
 
 ##### Machine Learning
 
-- Decision Tree
-- Navie Bayes
-- K-Mean Clustering
-- Linear Regression
+- [Decision Tree](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/6_Machine_Learning/Decision%20Tree)
+- [Navie Bayes](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/6_Machine_Learning/Naive-Bayes-Classifier)
+- [K-Mean Clustering](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/6_Machine_Learning/K-Mean%20Clustering)
+- [Linear Regression](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/6_Machine_Learning/Linear%20Regression)
 
 ##### Deep Learning
 
-- Artificial Neural Network
-- Convolutional Neural Network
+- [Artificial Neural Network](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/7_Deep_Learning/ANN)
+- [Convolutional Neural Network](https://github.com/tharhtetsan/zero_2_hero_python/tree/main/7_Deep_Learning/CNN)
 
 
 
