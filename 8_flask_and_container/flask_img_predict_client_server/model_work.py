@@ -8,7 +8,7 @@ class modelWork:
 
     def __init__(self):
         
-        self.model_path = r"D:\gans\git_upload\zero_2_hero_python\7_Deep_Learning\CNN\24_08_2022.h5"
+        self.model_path = r"D:\gans\git_upload\zero_2_hero_python\7_Deep_Learning\CNN\cats_and_dogs_classification\24_08_2022.h5"
         self.model = None
         self.keyMap = {
             0:"alphard",
@@ -31,7 +31,11 @@ class modelWork:
         return self.keyMap[index]
 
     def predict_img_by_arr(self,img):
-        img = np.array([img])      
+        print(img)
+        img= cv2.resize(img,(256,256))
+        print(img.shape)
+        img = np.array([img])
+        print(img.shape) 
         result = self.model.predict(img,batch_size =1)
         index = (np.argmax(result))
         return self.keyMap[index]

@@ -12,12 +12,15 @@ def homePage():
 
 @app.post("/predict_img")
 def test_method():
-    img_data = request.json["img_data"]
-    jpg_as_np = np.frombuffer(img_data, dtype=np.uint8)
-    img = cv2.imdecode(jpg_as_np, flags=1)
-    print(img)
-    return "ok"
-    result = modelwork.predict_img_by_arr(img=img_data)
+    img_data = request.json["img_data"][0]
+    print("img_data:",type(img_data))
+    jpg_as_str = str.encode(img_data)
+    jpg_original = base64.b64decode(jpg_as_str)
+    print("jpg_original:",type(jpg_original))
+    jpg_as_np = np.frombuffer(jpg_original, dtype=np.uint8)
+    new_img = cv2.imdecode(jpg_as_np, flags=1)
+    
+    result = modelwork.predict_img_by_arr(img=new_img)
     return result
 
 
