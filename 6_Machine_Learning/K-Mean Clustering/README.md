@@ -1,4 +1,4 @@
-# Decision Tree Algorithm
+# K-Mean Clustering
 
 *This Presentation is all about my opinion and how I understand the way.*
 *So any mistake, be patient me.*
