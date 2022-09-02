@@ -31,11 +31,8 @@ class modelWork:
         return self.keyMap[index]
 
     def predict_img_by_arr(self,img):
-        print(img)
         img= cv2.resize(img,(256,256))
-        print(img.shape)
         img = np.array([img])
-        print(img.shape) 
         result = self.model.predict(img,batch_size =1)
         index = (np.argmax(result))
         return self.keyMap[index]
