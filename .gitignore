@@ -2,3 +2,5 @@
 *.pyc
 
 7_Deep_Learning/NLP/Netflix Titles Generating/results/
+
+*.DS_Store
